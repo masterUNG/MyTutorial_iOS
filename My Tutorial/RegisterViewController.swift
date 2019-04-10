@@ -31,7 +31,18 @@ class RegisterViewController: UIViewController {
     
     
     @IBAction func uploadButton(_ sender: UIBarButtonItem) {
-    }
+        
+        let name: String = nameTextField.text!
+        let email: String = emailTextField.text!
+        let password: String = passwordTextField.text!
+        
+        print("name ==>> \(name), email ==>> \(email), password ==>> \(password)")
+        
+        
+        
+        
+        
+    }   // uploadButton
     
     
     
