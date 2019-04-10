@@ -140,7 +140,11 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" identifier="backHome" id="tDR-1d-VJu"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="CloudUpload" id="haP-nz-mA9"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="CloudUpload" id="haP-nz-mA9">
+                                            <connections>
+                                                <action selector="uploadButton:" destination="ZFL-BD-Dla" id="fZL-Xa-4Ue"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -196,6 +200,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="siN-l7-YIN"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="3jd-Ig-1qC" id="RnL-Ya-lVE"/>
+                        <outlet property="nameTextField" destination="m3q-j5-62A" id="XAt-r1-G5p"/>
+                        <outlet property="passwordTextField" destination="sxp-JC-PRk" id="sV6-AD-aUi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQt-rS-3dm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
