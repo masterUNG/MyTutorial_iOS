@@ -33,6 +33,7 @@ class ViewController: UIViewController {
             authenAlert(titleString: "Have Space", messageString: "Please Fill All Blank")
         }   else {
             print("No Space")
+            
         }
         
     }   // loginButton

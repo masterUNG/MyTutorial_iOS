@@ -110,6 +110,7 @@
                         <outlet property="emailTextField" destination="7X0-xk-taW" id="6nj-va-mMZ"/>
                         <outlet property="passwordTextField" destination="0MS-Mj-gRA" id="aNZ-hs-s4c"/>
                         <segue destination="ZFL-BD-Dla" kind="show" identifier="GoRegister" id="K04-ip-LX3"/>
+                        <segue destination="8hu-J3-IHc" kind="show" identifier="GoCategory" id="t14-hS-4xw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -199,6 +200,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQt-rS-3dm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1063.768115942029" y="118.52678571428571"/>
+        </scene>
+        <!--Category-->
+        <scene sceneID="eRh-NJ-zWq">
+            <objects>
+                <viewController title="Category" id="8hu-J3-IHc" customClass="CategoryViewController" customModule="My_Tutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YAO-ba-aYs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BJO-Ax-Gfp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DgX-c1-1A7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="856"/>
         </scene>
     </scenes>
     <resources>

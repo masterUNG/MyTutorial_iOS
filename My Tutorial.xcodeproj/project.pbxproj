@@ -13,6 +13,7 @@
 		C45D55C4225C6BFD00466394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45D55C2225C6BFD00466394 /* Main.storyboard */; };
 		C45D55C6225C6BFE00466394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45D55C5225C6BFE00466394 /* Assets.xcassets */; };
 		C45D55C9225C6BFE00466394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45D55C7225C6BFE00466394 /* LaunchScreen.storyboard */; };
+		C4E48633225DADA60091E306 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E48632225DADA60091E306 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C45D55C5225C6BFE00466394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45D55C8225C6BFE00466394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45D55CA225C6BFE00466394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E48632225DADA60091E306 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C45D55BE225C6BFD00466394 /* AppDelegate.swift */,
 				C45D55C0225C6BFD00466394 /* ViewController.swift */,
 				C45D55C2225C6BFD00466394 /* Main.storyboard */,
+				C4E48632225DADA60091E306 /* CategoryViewController.swift */,
 				C4292827225D932600ECA09C /* RegisterViewController.swift */,
 				C45D55C5225C6BFE00466394 /* Assets.xcassets */,
 				C45D55C7225C6BFE00466394 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E48633225DADA60091E306 /* CategoryViewController.swift in Sources */,
 				C4292828225D932600ECA09C /* RegisterViewController.swift in Sources */,
 				C45D55C1225C6BFD00466394 /* ViewController.swift in Sources */,
 				C45D55BF225C6BFD00466394 /* AppDelegate.swift in Sources */,
