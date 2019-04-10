@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>838875112113-3f63uvl56036fvlnhldvvcagh57evo79.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.838875112113-3f63uvl56036fvlnhldvvcagh57evo79</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>838875112113-h4tdtab5ku6r9rk2446bgtpv3a5h6nhm.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCb5d58Sq1eN7z9D-vJyh53INQrHODn3Ek</string>
+	<key>GCM_SENDER_ID</key>
+	<string>838875112113</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.swiftcodingthai.My-Tutorial</string>
+	<key>PROJECT_ID</key>
+	<string>mytutorial-ca80e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mytutorial-ca80e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:838875112113:ios:fd2b54b9f8377581</string>
+	<key>DATABASE_URL</key>
+	<string>https://mytutorial-ca80e.firebaseio.com</string>
+</dict>
+</plist>
