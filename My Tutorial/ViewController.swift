@@ -30,14 +30,29 @@ class ViewController: UIViewController {
 //        Check Space
         if (email.count == 0) || (password.count == 0) {
             print("Have Space")
+            authenAlert(titleString: "Have Space", messageString: "Please Fill All Blank")
         }   else {
             print("No Space")
         }
         
-        
-        
-        
     }   // loginButton
+    
+    func authenAlert(titleString: String, messageString: String) -> Void {
+        
+        let objAlert = UIAlertController(title: titleString, message: messageString, preferredStyle: UIAlertController.Style.alert)
+        
+//        Create Button OK
+        objAlert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: { (action) in
+            objAlert.dismiss(animated: true, completion: nil)
+        }))
+        present(objAlert, animated: true, completion: nil)
+        
+        
+    }
+    
+    
+    
+    
     
     @IBAction func newRegisterButton(_ sender: UIButton) {
         print("You Click New Register")
