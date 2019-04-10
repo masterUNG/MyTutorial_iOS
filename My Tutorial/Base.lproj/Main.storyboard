@@ -111,7 +111,7 @@
         <!--Register-->
         <scene sceneID="hTh-Xh-qsw">
             <objects>
-                <viewController title="Register" id="ZFL-BD-Dla" sceneMemberID="viewController">
+                <viewController title="Register" id="ZFL-BD-Dla" customClass="RegisterViewController" customModule="My_Tutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hwf-Hr-Mkb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

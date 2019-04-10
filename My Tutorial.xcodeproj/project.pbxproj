@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4292828225D932600ECA09C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4292827225D932600ECA09C /* RegisterViewController.swift */; };
 		C45D55BF225C6BFD00466394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D55BE225C6BFD00466394 /* AppDelegate.swift */; };
 		C45D55C1225C6BFD00466394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D55C0225C6BFD00466394 /* ViewController.swift */; };
 		C45D55C4225C6BFD00466394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45D55C2225C6BFD00466394 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4292827225D932600ECA09C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C45D55BB225C6BFD00466394 /* My Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45D55BE225C6BFD00466394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C45D55C0225C6BFD00466394 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				C45D55BE225C6BFD00466394 /* AppDelegate.swift */,
 				C45D55C0225C6BFD00466394 /* ViewController.swift */,
 				C45D55C2225C6BFD00466394 /* Main.storyboard */,
+				C4292827225D932600ECA09C /* RegisterViewController.swift */,
 				C45D55C5225C6BFE00466394 /* Assets.xcassets */,
 				C45D55C7225C6BFE00466394 /* LaunchScreen.storyboard */,
 				C45D55CA225C6BFE00466394 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4292828225D932600ECA09C /* RegisterViewController.swift in Sources */,
 				C45D55C1225C6BFD00466394 /* ViewController.swift in Sources */,
 				C45D55BF225C6BFD00466394 /* AppDelegate.swift in Sources */,
 			);
