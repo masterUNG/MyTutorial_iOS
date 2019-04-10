@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
     
@@ -33,10 +34,27 @@ class ViewController: UIViewController {
             authenAlert(titleString: "Have Space", messageString: "Please Fill All Blank")
         }   else {
             print("No Space")
-            
+            checkAuthen(emailString: email, passwordString: password)
         }
         
     }   // loginButton
+    
+    func checkAuthen(emailString: String, passwordString: String) -> Void {
+        
+        Auth.auth().signIn(withEmail: emailString, password: passwordString) { (user, error) in
+            if error == nil {
+                print("Authen True")
+                self.performSegue(withIdentifier: "GoCategory", sender: nil)
+            } else {
+                let errorString: String = error!.localizedDescription
+                print("Error ==>> \(errorString)")
+                self.authenAlert(titleString: "Authen False", messageString: errorString)
+            }
+        }
+        
+        
+    }   // checkAuthen
+    
     
     func authenAlert(titleString: String, messageString: String) -> Void {
         
