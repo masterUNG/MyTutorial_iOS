@@ -66,6 +66,9 @@
                                 <state key="normal" title="LOGIN">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YgI-0F-xZk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXg-GF-Bm0">
                                 <rect key="frame" x="107" y="484" width="200" height="30"/>
@@ -77,6 +80,9 @@
                                 <state key="normal" title="New Register">
                                     <color key="titleColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="newRegisterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7mO-zT-m6C"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -101,6 +107,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="7X0-xk-taW" id="6nj-va-mMZ"/>
+                        <outlet property="passwordTextField" destination="0MS-Mj-gRA" id="aNZ-hs-s4c"/>
                         <segue destination="ZFL-BD-Dla" kind="show" identifier="GoRegister" id="K04-ip-LX3"/>
                     </connections>
                 </viewController>
@@ -125,7 +133,12 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Register" id="fbI-5S-bxw">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" image="ArrowBack" id="pde-Uy-OYl"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="ArrowBack" id="pde-Uy-OYl">
+                                            <connections>
+                                                <action selector="backButton:" destination="ZFL-BD-Dla" id="H5K-2K-Fgl"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="backHome" id="tDR-1d-VJu"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" image="CloudUpload" id="haP-nz-mA9"/>
                                     </navigationItem>
                                 </items>
